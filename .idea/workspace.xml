@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sg_mini_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sg_mini_blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662987479194</updated>
       <workItem from="1662987483601" duration="512000" />
-      <workItem from="1662988124628" duration="1253000" />
+      <workItem from="1662988124628" duration="1471000" />
     </task>
     <servers />
   </component>
