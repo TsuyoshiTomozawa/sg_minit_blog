@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Post, type: :model do
-  describe 'valid case' do
+  describe 'in valid case' do
     it 'is valid with content' do
       post = FactoryBot.create(:post)
       post.valid?
@@ -15,18 +15,18 @@ RSpec.describe Post, type: :model do
     end
   end
 
-  describe 'invalid case' do
+  describe 'in invalid case' do
     it 'is invalid without content' do
-      post = FactoryBot.create(:post, :without_content)
+      post = FactoryBot.build(:post, :without_content)
       post.valid?
-      expect(post).to_not be_valid
+      expect(post.errors[:content]).to include "can't be blank"
 
     end
 
     it 'is invalid when content size is 141' do
-      post = FactoryBot.create(:post, :content_size_141)
+      post = FactoryBot.build(:post, :content_size_141)
       post.valid?
-      expect(post).to_not be_valid
+      expect(post.errors[:content]).to include "is too long (maximum is 140 characters)"
     end
   end
 end
