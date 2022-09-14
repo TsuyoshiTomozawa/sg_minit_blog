@@ -1,2 +1,13 @@
-%h1 Posts#index
-%p Find me in app/views/posts/index.html.haml
+.row
+  %aside(class="col-md-4")
+    %secition(class="post_form")
+  .col-md-8
+    %h3
+      Timeline
+    %ol(class="posts")
+      - @posts.each do |post|
+        %li
+          %span(class="content")
+            = post.content
+          %span(class="timestamp")
+            = l post.created_at, format: :long

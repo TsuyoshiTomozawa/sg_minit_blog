@@ -1,6 +1,7 @@
                                   Prefix Verb   URI Pattern                                                                                       Controller#Action
-                                   posts POST   /posts(.:format)                                                                                  posts#create
-                                    root GET    /                                                                                                 post#index
+                                   posts GET    /posts(.:format)                                                                                  posts#index
+                                         POST   /posts(.:format)                                                                                  posts#create
+                                    root GET    /                                                                                                 posts#index
         turbo_recede_historical_location GET    /recede_historical_location(.:format)                                                             turbo/native/navigation#recede
         turbo_resume_historical_location GET    /resume_historical_location(.:format)                                                             turbo/native/navigation#resume
        turbo_refresh_historical_location GET    /refresh_historical_location(.:format)                                                            turbo/native/navigation#refresh
