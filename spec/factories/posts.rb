@@ -13,5 +13,10 @@ FactoryBot.define do
     trait :content_size_141 do
       content { Faker::Lorem.characters(number: 141) }
     end
+
+    trait :post_day_ago do
+      created_at { 1.day.ago }
+      updated_at { 1.day.ago }
+    end
   end
 end
