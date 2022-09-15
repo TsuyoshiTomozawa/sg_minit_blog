@@ -1,9 +1,12 @@
 .row
   %aside(class="col-md-4")
     %secition(class="post_form")
+      = simple_form_for @post do |f|
+        = f.input :content, as: :text, placeholder: "あなたのアイデアを共有しよう(140文字以内)"
+        = f.button :submit, class: "btn btn-primary mt-3"
   .col-md-8
     %h3
-      Timeline
+      新着投稿
     %ol(class="posts")
       - @posts.each do |post|
         %li
