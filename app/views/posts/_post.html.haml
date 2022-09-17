@@ -1,0 +1,6 @@
+%li
+  %span(class="content")
+    = safe_join post.content.split("\n"), tag(:br)
+
+  %span(class="timestamp")
+    = l post.created_at, format: :long

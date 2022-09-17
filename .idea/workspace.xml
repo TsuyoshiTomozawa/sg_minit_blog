@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/posts/_post.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_post_form.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_post_list.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,11 @@
     &quot;ts.external.directory.path&quot;: &quot;/Users/tsuyoshitomozawa/Library/Application Support/JetBrains/Toolbox/apps/RubyMine/ch-0/221.5921.22/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.Development: sg_mini_blog">
     <configuration name="Development: sg_mini_blog" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="sg_mini_blog" />
@@ -151,7 +160,7 @@
       <workItem from="1663116212357" duration="1075000" />
       <workItem from="1663157725693" duration="6278000" />
       <workItem from="1663281330867" duration="2778000" />
-      <workItem from="1663337174414" duration="10678000" />
+      <workItem from="1663337174414" duration="12885000" />
     </task>
     <servers />
   </component>
@@ -168,5 +177,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/post.rb</url>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
