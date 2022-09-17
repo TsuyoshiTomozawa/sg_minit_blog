@@ -17,6 +17,7 @@ gem "bootsnap", require: false
 gem "sassc-rails"
 gem 'i18n_generators'
 gem 'simple_form'
+gem 'kaminari'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]

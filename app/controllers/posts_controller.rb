@@ -22,7 +22,7 @@ class PostsController < ApplicationController
   end
 
   def set_posts
-    @posts = Post.recent.all
+    @posts = Post.recent.page(params[:page])
   end
 
   def post_params

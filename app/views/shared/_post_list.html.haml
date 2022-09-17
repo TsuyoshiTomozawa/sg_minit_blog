@@ -1,3 +1,7 @@
-%ol(class="posts")
-  - @posts.each do |post|
+- if @posts.any?
+  %ol(class="posts")
     = render @posts
+  = paginate @posts
+- else
+  %p
+    まだ投稿はありません。
