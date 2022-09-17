@@ -2,7 +2,7 @@
   %aside(class="col-md-4")
     %secition(class="post_form")
       = simple_form_for @post do |f|
-        = f.input :content, as: :text, placeholder: "あなたのアイデアを共有しよう(140文字以内)"
+        = f.input :content, as: :text, placeholder: "あなたのアイデアを共有しよう(140文字以内)", label: false
         = f.button :submit, class: "btn btn-primary mt-3"
   .col-md-8
     %h3
@@ -11,6 +11,7 @@
       - @posts.each do |post|
         %li
           %span(class="content")
-            = post.content
+            = safe_join post.content.split("\n"), tag(:br)
+
           %span(class="timestamp")
             = l post.created_at, format: :long
