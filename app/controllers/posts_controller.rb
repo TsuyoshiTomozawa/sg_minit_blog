@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+  before_action :authenticate_user!, only: [:index, :create]
   before_action :set_post, only: :index
   before_action :set_posts, only: [:index, :create]
 
@@ -6,7 +7,7 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = Post.new(post_params)
+    @post = current_user.posts.build(post_params)
     if @post.save
       flash[:success] = "投稿しました"
       redirect_to root_url
