@@ -3,6 +3,9 @@ require 'rails_helper'
 RSpec.describe Post, type: :model do
   describe '#validation' do
     context 'in valid case' do
+      before do
+        @user = FactoryBot.create(:user)
+      end
       it 'is valid with content' do
         post = FactoryBot.create(:post)
         post.valid?
@@ -38,9 +41,6 @@ RSpec.describe Post, type: :model do
         FactoryBot.build(:post, :post_day_ago)
         expect(post).to eq post
       end
-
     end
-
   end
-
 end
