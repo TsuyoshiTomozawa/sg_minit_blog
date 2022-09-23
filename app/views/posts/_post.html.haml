@@ -1,11 +1,11 @@
 %li
-  %span(class="user")
+  %span.user
     -# = link_to post.user.name, post.user
     #{post.user.name}
 
-  %span(class="timestamp")
+  %span.timestamp
     = l post.created_at, format: :long
 
-  %span(class="content")
+  %span.content
     = safe_join post.content.split("\n"), tag(:br)
 
