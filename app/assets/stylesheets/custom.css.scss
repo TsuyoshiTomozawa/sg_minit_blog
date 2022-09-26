@@ -46,24 +46,29 @@ p {
 .posts {
   list-style: none;
   padding: 0;
+
   li {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
+
   .user {
     margin-top: 5em;
     padding-top: 0;
     margin-left: 60px;
   }
+
   .content {
     margin-top: 1em;
     display: block;
     margin-left: 60px;
+
     img {
       display: block;
       padding: 5px 0;
     }
   }
+
   .timestamp {
     color: lightgray;
     display: block;
@@ -94,4 +99,10 @@ aside {
 #logo:hover {
   color: lightgray;
   text-decoration: none;
+}
+
+.alert-notice {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
 }
