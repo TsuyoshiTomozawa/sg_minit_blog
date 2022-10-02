@@ -1,7 +1,6 @@
 %li
   %span.user
-    -# = link_to post.user.name, post.user
-    #{post.user.name}
+    = link_to post.user.name, user_path(post.user)
 
   %span.timestamp
     = l post.created_at, format: :long

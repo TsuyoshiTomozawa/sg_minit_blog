@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/railways.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/shared/_links.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/shared/_links.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/_post.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/_post.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/system/auths_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/auths_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +177,7 @@
       <workItem from="1663681260431" duration="1597000" />
       <workItem from="1663855511962" duration="1463000" />
       <workItem from="1663907519492" duration="17642000" />
-      <workItem from="1664406741954" duration="12315000" />
+      <workItem from="1664406741954" duration="13774000" />
     </task>
     <servers />
   </component>
