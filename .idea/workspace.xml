@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/support/cookie_module.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/simple_form.ja.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/railways.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/system/auths_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/auths_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +181,7 @@
       <workItem from="1663681260431" duration="1597000" />
       <workItem from="1663855511962" duration="1463000" />
       <workItem from="1663907519492" duration="17642000" />
-      <workItem from="1664406741954" duration="869000" />
+      <workItem from="1664406741954" duration="6526000" />
     </task>
     <servers />
   </component>
@@ -208,6 +213,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1663918927195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
+    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664697860331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
   </component>
 </project>

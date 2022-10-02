@@ -4,8 +4,8 @@ RSpec.describe "Auths", type: :system do
   scenario "ログインする" do
     user = FactoryBot.create(:user)
     visit login_path
-    fill_in "Name", with: user.name
-    fill_in "Password", with: user.password
+    fill_in "user[name]", with: user.name
+    fill_in "user[password]", with: user.password
     click_button "ログイン"
     expect(page).to have_content "ログインしました。"
     expect(current_path).to eq root_path
@@ -15,8 +15,8 @@ RSpec.describe "Auths", type: :system do
   scenario "remember me" do
     user = FactoryBot.create(:user)
     visit login_path
-    fill_in "Name", with: user.name
-    fill_in "Password", with: user.password
+    fill_in "user[name]", with: user.name
+    fill_in "user[password]", with: user.password
     check "Remember me"
     click_button "ログイン"
     expect(page).to have_content "ログインしました。"
@@ -26,11 +26,31 @@ RSpec.describe "Auths", type: :system do
     puts cookie_expires # FIXME 有効期限のtimezoneがUCのため、現在時刻と比較できず
   end
 
+  describe "異常系" do
+    it 'ユーザー名が空' do
+      user = FactoryBot.create(:user)
+      visit login_path
+      fill_in "user[password]", with: user.password
+      click_button "ログイン"
+      expect(page).to have_content "が不正です。"
+      expect(current_path).to eq new_user_session_path
+    end
+
+    it 'パスワードが空' do
+      user = FactoryBot.create(:user)
+      visit login_path
+      fill_in "user[name]", with: user.name
+      click_button "ログイン"
+      expect(page).to have_content "が不正です。"
+      expect(current_path).to eq new_user_session_path
+    end
+  end
+
   scenario "ログアウトする" do
     user = FactoryBot.create(:user)
     visit login_path
-    fill_in "Name", with: user.name
-    fill_in "Password", with: user.password
+    fill_in "user[name]", with: user.name
+    fill_in "user[password]", with: user.password
     click_button "ログイン"
 
     expect(current_path).to eq root_path

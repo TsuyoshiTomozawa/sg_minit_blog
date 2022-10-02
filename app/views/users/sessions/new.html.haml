@@ -1,14 +1,21 @@
-%h2 Log in
-= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-  .form-inputs
-    = f.input :name,
-      required: true,
-      autofocus: false,
-      input_html: { autocomplete: "name" }
-    = f.input :password,
-      required: true,
-      input_html: { autocomplete: "current-password" }
-    = f.input :remember_me, as: :boolean if devise_mapping.rememberable?
-  .form-actions
-    = f.button :submit, "ログイン", class: "btn btn-primary mt-3"
-= render "users/shared/links"
+.form-login
+  %h2 Log in
+  = simple_form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: false}) do |f|
+    .form-inputs
+      = f.input :name,
+        required: true,
+        autofocus: false,
+        placeholder: "ユーザー名",
+        label: "ユーザー名",
+        error: "invalid",
+        input_html: { autocomplete: "name" }
+      = f.input :password,
+        required: true,
+        label: false,
+        label: "パスワード",
+        placeholder: "パスワード",
+        input_html: { autocomplete: "current-password" }
+      = f.input :remember_me, as: :boolean if devise_mapping.rememberable?
+    .form-actions
+      = f.button :submit, "ログイン", class: "btn btn-primary mt-3"
+  = render "users/shared/links"
