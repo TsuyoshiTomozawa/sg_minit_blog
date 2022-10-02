@@ -6,10 +6,10 @@ class User < ApplicationRecord
             uniqueness: true,
             format: { with: /\A[a-zA-Z]+\z/,
                       message: "はアルファベットのみが使えます" }
-  validates :profile, length: { maximum: 200 }
+  validates :profile, length: { maximum: 200 }, allow_blank: true
   validates :blog_url,
             format: /\A#{URI::regexp(%w(http https))}\z/,
-            allow_nil: true
+            allow_blank: true
 
   has_many :posts, dependent: :destroy
 

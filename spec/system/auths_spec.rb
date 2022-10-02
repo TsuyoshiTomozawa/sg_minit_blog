@@ -41,9 +41,16 @@ RSpec.describe "Auths", type: :system do
       visit login_path
       fill_in "user[name]", with: user.name
       click_button "ログイン"
-      expect(page).to have_content "が不正です。"
+      expect(page).to have_content "もしくはパスワードが不正です。"
       expect(current_path).to eq new_user_session_path
     end
+  end
+
+  scenario "ユーザー新規登録への導線確認" do
+    visit login_path
+    expect(page).to have_link 'ユーザー新規登録'
+    click_link 'ユーザー新規登録'
+    expect(current_path).to eq new_user_registration_path
   end
 
   scenario "ログアウトする" do
