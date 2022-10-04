@@ -4,9 +4,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[7.0]
   def change
     create_table :users do |t|
       t.string :name, null: false, default: "", limit: 20
-      t.string :profile, null: true, default: "", limit: 200
-      t.text :blog_url, null: true, default: ""
-
+      t.text :profile, null: true, default: ""
+      t.string :blog_url, null: true, default: "", limit: 200
       t.string :encrypted_password, null: false, default: ""
       t.string :reset_password_token
       t.datetime :reset_password_sent_at

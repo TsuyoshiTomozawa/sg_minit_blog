@@ -21,8 +21,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_19_075111) do
 
   create_table "users", force: :cascade do |t|
     t.string "name", limit: 20, default: "", null: false
-    t.string "profile", limit: 200, default: ""
-    t.text "blog_url", default: ""
+    t.text "profile", default: ""
+    t.string "blog_url", limit: 200, default: ""
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"

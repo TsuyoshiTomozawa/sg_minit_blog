@@ -1,11 +1,12 @@
 require "faker"
+Faker::Config.locale = :en
 
 User.create!(name: "admin",
              password: "password",
              password_confirmation: "password")
 
 10.times do |n|
-  name = Faker::Name.name
+  name = Faker::Name.first_name
   password = "password"
   User.create!(name: name,
                password: password,
