@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/railways.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,7 +182,8 @@
       <workItem from="1663681260431" duration="1597000" />
       <workItem from="1663855511962" duration="1463000" />
       <workItem from="1663907519492" duration="17642000" />
-      <workItem from="1664406741954" duration="14537000" />
+      <workItem from="1664406741954" duration="14917000" />
+      <workItem from="1664892884752" duration="3211000" />
     </task>
     <servers />
   </component>
@@ -199,11 +205,68 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/models/post.rb</url>
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
+          <line>49</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
+          <line>51</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
+          <line>52</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/lib/devise/models/database_authenticatable.rb</url>
+          <line>104</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/lib/devise/models/database_authenticatable.rb</url>
+          <line>87</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/lib/devise/models/database_authenticatable.rb</url>
+          <line>96</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
+          <line>93</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
+          <line>140</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -219,6 +282,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664713394868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
+    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664927906661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
   </component>
 </project>
