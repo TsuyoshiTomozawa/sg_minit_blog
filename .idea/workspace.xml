@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tsuyoshitomozawa/work/sg/sg_mini_blog&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/tsuyoshitomozawa/Library/Application Support/JetBrains/Toolbox/apps/RubyMine/ch-0/221.5921.22/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tsuyoshitomozawa/work/sg/sg_mini_blog",
+    "nodejs_package_manager_path": "yarn",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/tsuyoshitomozawa/Library/Application Support/JetBrains/Toolbox/apps/RubyMine/ch-0/221.5921.22/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views" />
@@ -183,7 +178,7 @@
       <workItem from="1663855511962" duration="1463000" />
       <workItem from="1663907519492" duration="17642000" />
       <workItem from="1664406741954" duration="14917000" />
-      <workItem from="1664892884752" duration="3211000" />
+      <workItem from="1664892884752" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -204,30 +199,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
-          <line>49</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
-          <line>51</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
-          <line>52</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/lib/devise/models/database_authenticatable.rb</url>
           <line>104</line>
@@ -254,14 +225,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
-          <line>93</line>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rbenv/versions/3.0.4/lib/ruby/gems/3.0.0/gems/devise-4.8.1/app/controllers/devise/registrations_controller.rb</url>
           <line>140</line>
           <properties myBlockOrdinal="-1">
             <option name="block-ordinal" value="-1" />
@@ -282,6 +245,6 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664927906661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
+    <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664928122185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
   </component>
 </project>
