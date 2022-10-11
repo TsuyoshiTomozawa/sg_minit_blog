@@ -28,7 +28,7 @@ RSpec.describe "Signups", type: :system do
         click_button "登録"
         expect(page).to have_content "下記の問題をご確認ください。:"
         expect(page).to have_content "Nameを入力してください"
-        expect(current_path).to eq '/users'
+
       end
 
       it 'ユーザー名に数字を含める' do
