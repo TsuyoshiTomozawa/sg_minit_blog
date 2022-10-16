@@ -33,13 +33,13 @@ RSpec.describe User, type: :model do
         it '数字が含まれる場合' do
           user = FactoryBot.build(:user, :name_include_num)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
 
         it '日本語の場合' do
           user = FactoryBot.build(:user, :name_japanese)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
       end
 
@@ -47,13 +47,13 @@ RSpec.describe User, type: :model do
         it '半角スペースが含まれる場合' do
           user = FactoryBot.build(:user, :name_include_half_space)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
 
         it "全角スペースが含まれる場合" do
           user = FactoryBot.build(:user, :name_include_full_space)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
       end
 
@@ -99,13 +99,13 @@ RSpec.describe User, type: :model do
         it '数字が含まれる場合' do
           @user.name = Faker::Lorem.characters(min_alpha: 1, min_numeric: 1)
           @user.valid?
-          expect(@user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(@user.errors[:name]).to include "はアルファベットのみが使えます"
         end
 
         it '日本語の場合' do
           @user.name = Faker::Name.first_name
           @user.valid?
-          expect(@user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(@user.errors[:name]).to include "はアルファベットのみが使えます"
         end
       end
 
@@ -113,13 +113,13 @@ RSpec.describe User, type: :model do
         it '半角スペースが含まれる場合' do
           user = FactoryBot.build(:user, :name_include_half_space)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
 
         it "全角スペースが含まれる場合" do
           user = FactoryBot.build(:user, :name_include_full_space)
           user.valid?
-          expect(user.errors[:name]).to include "アルファベットのみが使えます"
+          expect(user.errors[:name]).to include "はアルファベットのみが使えます"
         end
       end
 

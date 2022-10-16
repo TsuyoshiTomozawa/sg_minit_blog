@@ -7,13 +7,13 @@ RSpec.describe Post, type: :model do
         @user = FactoryBot.create(:user)
       end
       it 'is valid with content' do
-        post = FactoryBot.create(:post)
+        post = FactoryBot.create(:post, user: @user)
         post.valid?
         expect(post).to be_valid
       end
 
       it 'is valid when content size is 140' do
-        post = FactoryBot.create(:post, :content_size_140)
+        post = FactoryBot.create(:post, :content_size_140, user: @user)
         post.valid?
         expect(post).to be_valid
       end
