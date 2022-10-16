@@ -18,7 +18,6 @@
                                    login GET    /login(.:format)                                                                                  users/sessions#new
                                   logout GET    /logout(.:format)                                                                                 users/sessions#destroy
                                    users GET    /users(.:format)                                                                                  redirect(301, /users/sign_up)
-                               user_edit GET    /user/edit(.:format)                                                                              users/registrations#edit
                                     user GET    /users/:id(.:format)                                                                              users#show
                                    posts POST   /posts(.:format)                                                                                  posts#create
                                     root GET    /                                                                                                 posts#index

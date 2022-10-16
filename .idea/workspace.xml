@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/support/sign_in_module.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/support/sign_out_module.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/75ba9710-611d-4ee1-823b-b953e39b379e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b0892cf4-a504-4509-a099-7236100d6209.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/railways.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/railways.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.haml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/system/signups_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/signups_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/system/edit_users_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/system/edit_users_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="$PROJECT_DIR$/app/views" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.EditUsers 表示確認">
+  <component name="RunManager" selected="Rails.Development: sg_mini_blog">
     <configuration name="EditUsers 表示確認" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="sg_mini_blog" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -233,12 +231,6 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="RSpec.EditUsers 表示確認" />
-        <item itemvalue="RSpec.EditUsers ユーザー名更新" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -261,7 +253,9 @@
       <workItem from="1663907519492" duration="17642000" />
       <workItem from="1664406741954" duration="14917000" />
       <workItem from="1664892884752" duration="3880000" />
-      <workItem from="1665097443297" duration="7247000" />
+      <workItem from="1665097443297" duration="7676000" />
+      <workItem from="1665526764650" duration="3014000" />
+      <workItem from="1665741304345" duration="2839000" />
     </task>
     <servers />
   </component>
@@ -329,6 +323,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sg_mini_blog@Development__sg_mini_blog.rcov" NAME="Development: sg_mini_blog Coverage Results" MODIFIED="1664928122185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
-    <SUITE FILE_PATH="coverage/sg_mini_blog@EditUsers_.rcov" NAME="EditUsers 表示確認 Coverage Results" MODIFIED="1665402624858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
+    <SUITE FILE_PATH="coverage/sg_mini_blog@EditUsers_.rcov" NAME="EditUsers 表示確認 Coverage Results" MODIFIED="1665625960527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sg_mini_blog" />
   </component>
 </project>

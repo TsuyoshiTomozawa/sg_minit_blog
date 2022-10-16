@@ -10,7 +10,6 @@ Rails.application.routes.draw do
     get "login", to: "users/sessions#new"
     get "logout", to: "users/sessions#destroy"
     get 'users', to: redirect('/users/sign_up')
-    get "user/edit", to: "users/registrations#edit"
   end
 
   resources :users, only: %i[show]
