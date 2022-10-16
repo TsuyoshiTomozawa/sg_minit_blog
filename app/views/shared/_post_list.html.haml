@@ -1,7 +1,6 @@
 - if @posts.any?
-  %ol(class="posts")
+  %ol.posts
     = render @posts
   = paginate @posts
 - else
-  %p
-    まだ投稿はありません。
+  %p= "まだ投稿はありません。"

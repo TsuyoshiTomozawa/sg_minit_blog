@@ -1,0 +1,21 @@
+%h2 Sign up
+= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), data: {turbo: false}) do |f|
+  = f.error_notification
+  .form-inputs
+    = f.input :name,
+      required: true,
+      autofocus: true,
+      label: "ユーザー名",
+      input_html: { autocomplete: "name" }
+    = f.input :password,
+      required: true,
+      label: "パスワード",
+      hint: ("#{@minimum_password_length} 文字以内" if @minimum_password_length),
+      input_html: { autocomplete: "new-password" }
+    = f.input :password_confirmation,
+      required: true,
+      label: "パスワード確認",
+      input_html: { autocomplete: "new-password" }
+  .form-actions
+    = f.button :submit, "登録", class: "btn btn-primary mt-3"
+= render "users/shared/links"

@@ -1,0 +1,29 @@
+%h2
+  プロフィール設定
+= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }, data: { turbo: false }) do |f|
+  = f.error_notification
+  .form-inputs
+    = f.input :name, required: true, autofocus: true, label: "ユーザー名"
+    = f.input :password,
+      hint: "変更しない場合は空欄のままにしてください。",
+      required: false,
+      label: "パスワード",
+      input_html: { autocomplete: "new-password" }
+    = f.input :password_confirmation,
+      required: false,
+      label: "パスワード確認",
+      input_html: { autocomplete: "new-password" }
+    = f.input :current_password,
+      hint: "変更内容を確認するため、現在のパスワードが必要です。",
+      required: true,
+      label: "現在のパスワード",
+      input_html: { autocomplete: "current-password" }
+
+    = f.input :profile, required: false, label: "プロフィール", placeholder: "200文字以内で入力してください。"
+
+    = f.input :blog_url, required: false, label: "ブログURL", placeholder: "https://test@example.com"
+
+  .form-actions
+    = f.button :submit, "更新", class: "btn btn-primary mt-3"
+
+= link_to "戻る", :back

@@ -1,0 +1,15 @@
+%header(class="navbar navbar-expand-lg navbar-light bg-light mb-4")
+  .container
+    = link_to "Mini Blog" , root_path, class: "navbar-brand", id: "logo"
+    %nav
+      %ul(class="navbar-nav mr-auto" )
+        %li(class="nav-item" )
+          = link_to "HOME" , root_path, class: "nav-link"
+        - if user_signed_in?
+          %li(class="nav-item" )
+            = link_to "プロフィール設定" , edit_user_registration_path, class: "nav-link"
+          %li(class="nav-item" )
+            = link_to "ログアウト" , logout_path, class: "nav-link"
+        - else
+          %li(class="nav-item" )
+            = link_to "ログイン" , login_path, class: "nav-link"

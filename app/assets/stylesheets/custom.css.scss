@@ -2,12 +2,6 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding-top: 60px;
-  margin: 0 auto;
-  width: 80%;
-}
-
 section {
   overflow: auto;
 }
@@ -52,22 +46,29 @@ p {
 .posts {
   list-style: none;
   padding: 0;
+
   li {
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
+
   .user {
     margin-top: 5em;
     padding-top: 0;
+    margin-left: 60px;
   }
+
   .content {
+    margin-top: 1em;
     display: block;
     margin-left: 60px;
+
     img {
       display: block;
       padding: 5px 0;
     }
   }
+
   .timestamp {
     color: lightgray;
     display: block;
@@ -84,4 +85,54 @@ aside {
 
 .pagination {
   justify-content: center;
+}
+
+#logo {
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.alert-notice {
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.alert-alert {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+abbr[title] {
+  text-decoration: none !important;
+  color: red;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }

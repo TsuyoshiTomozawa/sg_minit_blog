@@ -18,6 +18,7 @@ gem "sassc-rails"
 gem 'i18n_generators'
 gem 'simple_form'
 gem 'kaminari'
+gem 'devise'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -36,6 +37,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'launchy'
 end
 
 group :production do
