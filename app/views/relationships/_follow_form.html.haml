@@ -1,0 +1,5 @@
+%div#follow_form.ms-3
+  - if current_user.following?(user)
+    = render 'relationships/unfollow', user: user
+  - else
+    = render 'relationships/follow', user: user
