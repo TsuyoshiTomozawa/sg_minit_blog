@@ -4,5 +4,9 @@
       = render "shared/post_form"
 
   .col-md-8
-    %h3= "新着投稿"
+    .mb-2
+      %h3.d-inline-block= "新着投稿"
+
+      = select_tag "people", options_for_select({すべて: :all, フォローユーザーのみ: :following}, selected: "ruby_base"), class: "form-select w-25 d-inline-block float-end"
+
     = render "shared/post_list"

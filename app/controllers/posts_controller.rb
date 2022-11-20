@@ -23,7 +23,10 @@ class PostsController < ApplicationController
   end
 
   def set_posts
-    @posts = Post.recent.page(params[:page])
+    p params[:filter]
+    @posts = Post.timeline(
+      filter: params[:filter] ? params[:filter].intern : "",
+      current_user: current_user).recent.page(params[:page])
   end
 
   def post_params
