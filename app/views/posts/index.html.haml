@@ -4,5 +4,9 @@
       = render "shared/post_form"
 
   .col-md-8
-    %h3= "新着投稿"
+    .mb-2
+      %h3.d-inline-block= "新着投稿"
+      = form_with url: root_path, method: :get, class: "d-inline" do |f|
+        = f.select :filter, [['すべて', :all, data: {filter: :all}], ['フォローユーザーのみ', :following, data: {filter: :following}] ], {selected: @filter}, { class: "form-select w-25 d-inline-block float-end", :onchange => 'this.form.submit()' }
+
     = render "shared/post_list"

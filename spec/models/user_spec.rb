@@ -142,4 +142,17 @@ RSpec.describe User, type: :model do
       end
     end
   end
+
+  describe "#フォロー機能" do
+    let(:user1) { FactoryBot.create(:user, name: "main") }
+    let(:user2) { FactoryBot.create(:user, name: "sub") }
+
+    it 'フォローとアンフォロー' do
+      expect(user1.following?(user2)).to eq false
+      user1.follow(user2)
+      expect(user1.following?(user2)).to eq true
+      user1.unfollow(user2)
+      expect(user1.following?(user2)).to eq false
+    end
+  end
 end

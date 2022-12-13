@@ -1,6 +1,8 @@
-%li
-  %span.user
-    = link_to post.user.name, user_path(post.user)
+%li{id: "post-#{post.id}"}
+  .user.d-flex
+    .username.w-25
+      = link_to post.user.name, user_path(post.user)
+    = render 'relationships/follow_form', user: post.user
 
   %span.timestamp
     = l post.created_at, format: :long

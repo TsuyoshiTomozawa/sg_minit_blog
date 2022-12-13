@@ -36,7 +36,5 @@ FactoryBot.define do
     trait :name_include_full_space do
       name { Faker::Name.name }
     end
-
-
   end
 end

@@ -20,6 +20,8 @@
                                    users GET    /users(.:format)                                                                                  redirect(301, /users/sign_up)
                                     user GET    /users/:id(.:format)                                                                              users#show
                                    posts POST   /posts(.:format)                                                                                  posts#create
+                           relationships POST   /relationships(.:format)                                                                          relationships#create
+                            relationship DELETE /relationships/:id(.:format)                                                                      relationships#destroy
                                     root GET    /                                                                                                 posts#index
         turbo_recede_historical_location GET    /recede_historical_location(.:format)                                                             turbo/native/navigation#recede
         turbo_resume_historical_location GET    /resume_historical_location(.:format)                                                             turbo/native/navigation#resume
