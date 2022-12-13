@@ -35,6 +35,7 @@ RSpec.describe "Relationships", type: :system do
     before do
       sign_in_as(@user)
       find("#post-#{@post1.id} input[name='commit']").click
+
     end
 
     context 'パラメータなし' do
@@ -56,12 +57,20 @@ RSpec.describe "Relationships", type: :system do
     end
 
     context 'パラメータあり' do
-      it 'すべて表示' do
-
+      before do
+        visit root_path
       end
 
-      it 'フォローしたユーザーの投稿のみ表示' do
+      it 'フォローしたユーザーの投稿のみ表示', js: true do
+        select "フォローユーザーのみ"
+        expect(page).to have_current_path root_path(filter: 'following')
+      end
 
+      it 'すべて表示', js: true do
+        # 「フォローユーザーのみ」を選択後に「すべて」を選択
+        select "フォローユーザーのみ"
+        select "すべて"
+        expect(page).to have_current_path root_path(filter: 'all')
       end
     end
   end
