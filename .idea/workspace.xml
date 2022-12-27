@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c39bb9f-a34f-40e5-a2fd-2e23114ebe97" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/posts_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/posts_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/users_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/users_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +338,11 @@
       <workItem from="1668514376067" duration="422000" />
       <workItem from="1668932809584" duration="849000" />
       <workItem from="1668948971804" duration="3894000" />
-      <workItem from="1669117803891" duration="846000" />
+      <workItem from="1669117803891" duration="2214000" />
+      <workItem from="1670111575066" duration="7864000" />
+      <workItem from="1670845632586" duration="1765000" />
+      <workItem from="1670905627039" duration="1282000" />
+      <workItem from="1671450476714" duration="663000" />
     </task>
     <servers />
   </component>
